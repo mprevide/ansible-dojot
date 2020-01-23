@@ -1,1 +1,2 @@
-#TODO:create env variables for ejbca
+# This files has the default values for v2k-bridge
+dojot_wrapper_ejbca_version: "{{ dojot_version }}"
