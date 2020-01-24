@@ -21,7 +21,7 @@
   roles:
     - role: minio
 
-# Metrics
+#Metrics
 - hosts: dojot-k8s[0]
   any_errors_fatal: true
   tags: dojot-metrics-prometheus-grafana
@@ -100,17 +100,16 @@
     - role: image-manager
     - role: apigw
     - role: auth
+    - role: backstage
     - role: data-broker
     - role: ejbca-node
     - role: device-manager
-    - role: ejbca-rest
     - role: history
     - role: persister
     - role: gui
     - role: iotagent-lwm2m
     - role: flowbroker
     - role: data-manager
-    - role: backstage
     - role: cron
     - role: v2k-bridge
     - role: k2v-bridge

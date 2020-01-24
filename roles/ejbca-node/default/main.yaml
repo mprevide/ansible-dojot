@@ -1,2 +1,4 @@
-# This files has the default values for v2k-bridge
-dojot_wrapper_ejbca_version: "{{ dojot_version }}"
+---
+# This files has the default values 
+
+dojot_ejbca_version: "{{ dojot_version }}"
